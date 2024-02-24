@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Luxury Watch",
+      "desc": "Exquisitely crafted timepiece for the discerning individual.",
+      "price": 999.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/eNplYJxtRsQgGZXxtxHXTv0oWdKAQdHw_qe7yirKRKE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTgw/ODQ0MjUzL3Bob3Rv/L3dyaXN0LXdhdGNo/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz02OTFQWU1QclMt/MElPRWxvcmtGOGtR/Nlo3YnYtSjUtMjdY/Y1V4a0hwY0cwPQ"
+    },
+    {
+      "id": 3,
+      "name": "Stylish Sunglasses",
+      "desc": "Sleek and modern shades to elevate your look.",
+      "price": 59.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/oGfOyaorhNwb7fyRTWZadeVQO0s1UCAC90oIL0DFPB0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9z/dW5nbGFzc2VzXzEy/MDMtNzg4Ni5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw"
+    },
+    {
+      "id": 4,
+      "name": "Cozy Throw Blanket",
+      "desc": "Super soft and warm blanket for ultimate comfort.",
+      "price": 39.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/RNDFpRJJERyP4VVUo9IrRGvCocG3yusRuIbxJjqs4pA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzE5Mzg2NjU2L2Mv/MjYwOC8yNjA4LzAv/NTUvaWwvYzU3MWMx/LzI5MTExNzg3NTkv/aWxfNjAweDYwMC4y/OTExMTc4NzU5XzNp/ZDcuanBn"
+    },
+    {
+      "id": 5,
+      "name": "Durable Backpack",
+      "desc": "Sturdy and spacious backpack for carrying your essentials.",
+      "price": 79.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/inlC5_b6fVnyZA-zIVLDAQIQ8EbCuTDd-E0jjBO-G4M/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zd2lz/c2dlYXIuaW1naXgu/bmV0LzIvOC8yODcy/MjAyNDA5LTAxXzIu/anBnP3c9NDAwJmg9/NjAwJmF1dG89Zm9y/bWF0LGNvbXByZXNz"
+    },
+    {
+      "id": 6,
+      "name": "Sleek Coffee Maker",
+      "desc": "Modern coffee maker for brewing delicious coffee quickly.",
+      "price": 129.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/XCYv-KQOLAyfs-IzEiRqBxRixTCDvLU9b6aojfnQr5c/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjE3c3Zud01PLUwu/anBn"
+    },
+    {
+      "id": 7,
+      "name": "Noise-Cancelling Headphones",
+      "desc": "Immerse yourself in your music without distractions.",
+      "price": 199.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/4PR0dfbON3I1dGWv79SxYq7v6vmySHwwoFdBvefegJw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFXUTBtQnRCWUwu/anBn"
+    },
+    {
+      "id": 8,
+      "name": "Fitness Tracker",
+      "desc": "Track your activity and stay motivated with your fitness goals.",
+      "price": 49.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/6_Hbuwfp0YyIPgCbansoelk8v0oeOyRjsCrPdp6b6GM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/dGhld2lyZWN1dHRl/ci5jb20vd3AtY29u/dGVudC9tZWRpYS8y/MDIzLzExL2ZpdG5l/c3MtdHJhY2tlci0y/MDQ4cHgtNTM0NC5q/cGc_YXV0bz13ZWJw/JnF1YWxpdHk9NzUm/d2lkdGg9MTAyNA"
+    },
+    {
+      "id": 9,
+      "name": "Smart Speaker",
+      "desc": "Control your home devices and enjoy music hands-free.",
+      "price": 99.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/39KYgVOnVH70c0QoaEQHucXozLJVqqEIt_g9CAk7YVo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy80/LzQ3L0hhcm1hbl9L/YXJkb25fSW52b2tl/X1NwZWFrZXJfLV9h/ZXJpYWwuanBn"
+    },
+    {
+      "id": 10,
+      "name": "Comfortable Sneakers",
+      "desc": "Stylish and supportive sneakers for everyday wear.",
+      "price": 69.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/8COAewRpyu6sD8qYKgV2pNjr6kr5Phnj8bnMwy-Snh4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFQVUtkLVYxS0wu/anBn"
+    },
+    {
+      "id": 11,
+      "name": "High-Quality Phone Case",
+      "desc": "Protect your phone in style with a durable and attractive case.",
+      "price": 29.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/sx__xWTLEWGp_vGViIjF_IdXdCbzkK6S4MuF6dGnICM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/Y3VzdG9tZW52eS5j/b20vY2RuL3Nob3Av/ZmlsZXMvMTBfZGM3/YjUzODAtZTgzZi00/YWEzLWI0NjAtOTdi/ODI2YjIwMTczLnBu/Zz92PTE3MDUwNjQz/MzImd2lkdGg9MTUw/MA"
+    },
+    {
+      "id": 12,
+      "name": "Portable Wireless Charger",
+      "desc": "Keep your devices powered up on the go with this convenient charger.",
+      "price": 39.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/DEhUz42mMoW6zcHS8w7L-ZwrImZX3OMZgh_ILLWvplw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9teWNo/YXJnZS5jb20vY2Ru/L3Nob3AvcHJvZHVj/dHMvQUhDMTBHX0hl/cm9fZTFjMzE2OTAt/YWM0MC00ODI4LThl/YjctMjJlYjM1NTg4/OWEyXzE2MDB4Lmpw/Zz92PTE2MjYyODQ3/ODQ"
+    },
+    {
+      "id": 13,
+      "name": "Stylish Tote Bag",
+      "desc": "Versatile and spacious tote bag for carrying your essentials in style.",
+      "price": 49.99,
+      "color": "#33505",
+      "image": "https://imgs.search.brave.com/vkwuEV0tUhoFwb0bqPHCWuUxzwp8ALsgfEFrFGlAGgU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTgx/ODUyMjk5L3Bob3Rv/L3JlZC1iYWcuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPWhx/Yy1BdjFjcVZwMWIy/d0RGNE0zUjRsc3M1/cXFBWWJ5ZEE1VTFV/UkEyNzQ9"
+    }
+  ]
+}
