@@ -3,6 +3,14 @@ import 'dart:core';
 
 class CatlogModels {
   static List<Item> items = [];
+
+   static Item? getById(int id){
+     items.firstWhere((element) => element.id == id, orElse: null);
+   }
+
+
+
+
 }
 
 class Item {

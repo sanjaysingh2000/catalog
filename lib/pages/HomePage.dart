@@ -1,8 +1,10 @@
 import 'dart:convert';
 import 'package:day2/modals/catlog.dart';
 import 'package:day2/pages/home_detail_page.dart';
+import 'package:day2/utils/routes.dart';
 import 'package:day2/widgets/drawer.dart';
 import 'package:day2/widgets/item_widget.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -43,6 +45,12 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text("Catalog App",),
       ),
+      floatingActionButton: FloatingActionButton(onPressed: () {
+        Navigator.pushNamed(context, MyRoutes.cartRoute);
+      },
+        child: Icon(CupertinoIcons.cart),
+        backgroundColor: Colors.lightBlueAccent,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child:
@@ -50,25 +58,13 @@ class _HomePageState extends State<HomePage> {
         ListView.builder(
             itemCount: CatlogModels.items.length,
             itemBuilder: (context, index) {
-              return InkWell(
-                onTap: () {
-                  Item item = CatlogModels.items[index];
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => HomeDetailPage(item: item),
-                    ),
-                  );
-                },
-                child: ItemWidget(
-                  item: CatlogModels.items[index],
-                ),
+              return ItemWidget(
+                item: CatlogModels.items[index],
               );
             },
         )
         : Center(
           child: CircularProgressIndicator(),
-
       )
       ),
       drawer: MyDrawer(),
